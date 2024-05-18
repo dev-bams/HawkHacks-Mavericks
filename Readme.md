@@ -1,6 +1,6 @@
-# EduHawk - Your Smart Learning Companion
+# Eduken - Your Smart Learning Companion
 
-EduHawk is an AI-powered learning companion designed to revolutionize education. Leveraging blockchain technology and advanced AI algorithms, EduHawk offers personalized learning experiences, interactive tutoring sessions, and secure data management for learners worldwide.
+Eduken is an AI-powered learning companion designed to revolutionize education. Leveraging blockchain technology and advanced AI algorithms, Eduken offers personalized learning experiences, interactive tutoring sessions, and secure data management for learners worldwide.
 
 ## Features:
 - **Blockchain Integration:** Ensures transparent and secure data management.
@@ -17,14 +17,14 @@ EduHawk is an AI-powered learning companion designed to revolutionize education.
 - **AI Frameworks:** TensorFlow, PyTorch
 
 ## Getting Started:
-1. Visit our website: [www.eduhawk.com](https://www.eduhawk.com)
+1. Visit our website: [www.Eduken.com](https://www.Eduken.com)
 2. Create an account and start learning!
 3. For support, contact us via email or live chat.
 
 ## Let's Connect:
-- **Email:** info@eduhawk.com
-- **Twitter:** @EduHawkOfficial
-- **Facebook:** EduHawkOfficial
-- **Instagram:** @EduHawk_Official
+- **Email:** info@Eduken.com
+- **Twitter:** @EdukenOfficial
+- **Facebook:** EdukenOfficial
+- **Instagram:** @Eduken_Official
 
 Join us on our mission to revolutionize education with blockchain technology and AI-powered learning experiences!
