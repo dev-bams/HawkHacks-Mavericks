@@ -1,9 +1,14 @@
+import SideImage from '../../assets/images/side.png';
+import LoginForm from './LoginForm';
+
 function LandingPage() {
   return (
-    <div className="flex items-center justify-center h-full">
-      <div className="min-h-lvh max-w-7xl border w-full flex items-center justify-center">
-        <div className="border-red-600 border grow h-full"></div>
-        <div className="border-blue-600 border grow h-full"></div>
+    <div className="flex  w-full  flex-row items-center justify-center min-h-screen">
+      <div className=" side-img  min-w-min min-h-screen flex w-full">
+        <img src ={SideImage}  alt="Image of eduken " className='login-img' />
+      </div>
+      <div className=" form  w-full min-w-min min-h-screen flex items-center justify-center">
+        <LoginForm />
       </div>
     </div>
   );
