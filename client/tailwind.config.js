@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        "clash-display": ["clashDisplay", "sans-serif"],
+      },
       colors: {
         primary: "#000",
         chelsea: "#3300ff",
