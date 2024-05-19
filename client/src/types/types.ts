@@ -19,7 +19,9 @@ type SideBarProps = {
 type CategoryTypeProps = {
   category: string;
 };
-
+type CourseItemProps = {
+  title: string;
+};
 export type {
   SideBarLinkType,
   SideBarLinkProps,
@@ -27,4 +29,5 @@ export type {
   PageLayoutProp,
   SideBarProps,
   CategoryTypeProps,
+  CourseItemProps,
 };
