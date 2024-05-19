@@ -8,6 +8,7 @@ import badge7 from "../../assets/images/Badge_07.png";
 import badge8 from "../../assets/images/Badge_08.png";
 import badge9 from "../../assets/images/Badge_08.png";
 import CourseItems from "./CourseItems";
+import CourseItemStarred from "./CourseItemStarred";
 
 function DashBoardSection() {
   return (
@@ -67,9 +68,9 @@ function DashBoardSection() {
               Course Wishlist
             </div>
             <div className="bg-light-green p-6 gap-6 flex flex-col">
-              <CourseItems />
-              <CourseItems />
-              <CourseItems />
+              <CourseItemStarred />
+              <CourseItemStarred />
+              <CourseItemStarred />
             </div>
           </div>
         </div>
