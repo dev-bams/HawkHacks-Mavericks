@@ -9,12 +9,9 @@ Eduken is an AI-powered learning companion designed to revolutionize education. 
 - **Data Privacy:** Prioritizes user privacy and data security.
 
 ## Technologies Implemented:
-- **Blockchain:** Avalanche
-- **Smart Contracts:** Solidity, Clarity
-- **Programming Languages** Javasript,Python
-- **Decentralized Storage:** IPFS, Filecoin
-- **Token Standards:** ERC-20, NEP-141
-- **AI Frameworks:** TensorFlow, PyTorch
+- **Blockchain:** NEAR
+- **Programming Languages** Javascript, Typescript, Python
+- **Other Technologies Used:** MongoDB Atlas, Neurelo, Google Gemini API
 
 ## Getting Started:
 1. Visit our website: [www.Eduken.com](https://www.Eduken.com)
