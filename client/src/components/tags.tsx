@@ -1,5 +1,5 @@
 import { CategoryTypeProps } from "../types/types";
-
+import '../pages/courseDetails page/coursepage.css';
 
 
 const Tags: React.FC<CategoryTypeProps> = ({ category }) => {  
