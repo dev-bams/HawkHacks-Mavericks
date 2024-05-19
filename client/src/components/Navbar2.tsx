@@ -1,12 +1,12 @@
-import Logo from '../assets/images/logo.png';
+import Logo from "../assets/images/logo.png";
 
-
-function Navbar() {
-    return (
-        <div className="logo border w-full">
-            <img src={Logo} alt="Eduken Logo" />
-        </div>
-    );
+function Navbar2() {
+  return (
+    <div className="logo w-full">
+      <img src={Logo} alt="Eduken Logo" />
+      <div className="grow h-full"></div>
+    </div>
+  );
 }
 
-export default Navbar;
+export default Navbar2;
