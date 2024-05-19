@@ -10,9 +10,14 @@ const SideBarLinksListArray: SideBarLinkType[] = [
 function SideBarLinksList({ onclick }: SideBarLinksListProps) {
   return (
     <div className="flex gap-4 flex-col">
-      {SideBarLinksListArray.map(({ icon, linkName }) => {
+      {SideBarLinksListArray.map(({ icon, linkName }, index) => {
         return (
-          <SideBarLink icon={icon} linkName={linkName} onclick={onclick} />
+          <SideBarLink
+            icon={icon}
+            linkName={linkName}
+            key={index}
+            onclick={onclick}
+          />
         );
       })}
     </div>

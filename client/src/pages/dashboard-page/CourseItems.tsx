@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
 function CourseItems() {
   return (
     <Link to="/coursedetails">
@@ -7,10 +6,10 @@ function CourseItems() {
         <div className="flex">
           <img />
           <div>
-            <p>Advanced Cybersecurity Techniques</p>
+            <p className="font-bold">Advanced Cybersecurity Techniques</p>
           </div>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col text-3xl text-chelsea font-bold">
           <p>Total: </p>
           <p>80hrs</p>
         </div>

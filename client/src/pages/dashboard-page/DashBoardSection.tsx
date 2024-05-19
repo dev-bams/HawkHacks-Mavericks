@@ -20,18 +20,18 @@ function DashBoardSection() {
       </div>
       <div className="flex gap-6">
         <div className="flex flex-col grow gap-2">
-          <div className="flex border-[3px] justify-between border-primary bg-white p-4">
+          <div className="flex border-[3px] justify-between border-primary bg-white p-4 gap-4">
             <div className="flex flex-col justify-center items-center">
-              <p>Study Hours</p>
-              <p>45 hrs</p>
+              <p className="font-bold text-center">Study Hours</p>
+              <p className="text-chelsea text-3xl font-bold">45 hrs</p>
             </div>
             <div className="flex flex-col justify-center items-center">
-              <p>Completion rate</p>
-              <p>75%</p>
+              <p className="font-bold text-center">Completion rate</p>
+              <p className="text-chelsea text-3xl font-bold">75%</p>
             </div>
             <div className="flex flex-col justify-center items-center">
-              <p>Average Score</p>
-              <p>92%</p>
+              <p className="font-bold text-center">Average Score</p>
+              <p className="text-chelsea text-3xl font-bold">92%</p>
             </div>
           </div>
           <div className="border-[3px] border-primary">
