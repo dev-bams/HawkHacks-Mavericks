@@ -1,4 +1,4 @@
-# EduHawk - Your Smart Learning Companion
+# Eduken - Your Smart Learning Companion
 
 EduHawk is an AI-powered learning companion designed to revolutionize education. Leveraging blockchain technology and advanced AI algorithms, EduHawk offers personalized learning experiences, interactive tutoring sessions, and secure data management for learners worldwide.
 
