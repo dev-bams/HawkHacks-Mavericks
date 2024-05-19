@@ -3,6 +3,7 @@ import LandingPage from "./pages/landing-page/LandingPage";
 import PageLayout from "./pages/layout-page/LayoutPage";
 import ErrorPage from "./pages/error-page/ErrorPage";
 import MainDashBoardPage from "./pages/dashboard-page/MainDashBoardPage";
+import CourseDetailsPage from "./pages/courseDetails page/CourseDetailsPage";
 // import Logo from "./pages/landing-page/Logo";
 
 const router = createBrowserRouter([
@@ -20,6 +21,14 @@ const router = createBrowserRouter([
     element: (
       <PageLayout>
         <MainDashBoardPage />
+      </PageLayout>
+    ),
+  },
+  {
+    path: "/coursedetails",
+    element: (
+      <PageLayout>
+        <CourseDetailsPage />
       </PageLayout>
     ),
   },

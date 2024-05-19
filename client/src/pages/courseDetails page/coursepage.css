@@ -1,0 +1,29 @@
+.container {
+
+    height: 100vh;
+    overflow: hidden;
+    border: 3px solid #000;
+    background: #FFF;
+    flex-shrink: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+.back-btn {
+    padding: 1rem 1.2rem;
+    width: auto;
+    border-bottom: #000 solid 3px;
+    transition: all 0.3s ease;
+}
+
+.btnarr {
+  border: #000 solid 2px;
+  align-items: center;
+  padding: 0.6rem;
+}
