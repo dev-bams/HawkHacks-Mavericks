@@ -10,6 +10,7 @@ export default {
         grass: "#2fff2f",
         corn: "#ffff00",
         blood: "#ff4911",
+        "light-purple": "#DDDBF5",
       },
     },
   },

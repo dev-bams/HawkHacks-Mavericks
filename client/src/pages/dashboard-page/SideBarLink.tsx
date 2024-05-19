@@ -1,7 +1,12 @@
-import { SideBarLinksListProps } from "../../types/types";
-function SideBarLink({ icon, linkName }: SideBarLinksListProps) {
+import { SideBarLinkProps } from "../../types/types";
+function SideBarLink({ icon, linkName, onclick }: SideBarLinkProps) {
   return (
-    <div className="text-white flex items-center justify-center border">
+    <div
+      className="text-white flex items-center justify-center gap-2"
+      onClick={() => {
+        onclick(linkName);
+      }}
+    >
       <p>{icon}</p>
       <p>{linkName}</p>
     </div>

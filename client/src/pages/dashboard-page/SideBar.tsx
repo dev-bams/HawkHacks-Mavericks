@@ -1,9 +1,12 @@
 import SideBarLinksList from "./SideBarLinksList";
+import { SideBarProps } from "../../types/types";
 
-function SideBar() {
+function SideBar({ onclick }: SideBarProps) {
   return (
-    <div className="bg-chelsea w-48">
-      <SideBarLinksList />
+    <div
+      className="bg-chelsea w-48  min-h-lvh border-2 border-primary"
+    >
+      <SideBarLinksList onclick={onclick} />
     </div>
   );
 }

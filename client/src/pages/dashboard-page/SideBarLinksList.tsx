@@ -1,11 +1,20 @@
+import { SideBarLinksListProps } from "../../types/types";
 import SideBarLink from "./SideBarLink";
-function SideBarLinksList() {
+import { SideBarLinkType } from "../../types/types";
+const SideBarLinksListArray: SideBarLinkType[] = [
+  { icon: "icon", linkName: "Dashboard" },
+  { icon: "icon", linkName: "Courses" },
+  { icon: "icon", linkName: "Assistant" },
+  { icon: "icon", linkName: "Profile" },
+];
+function SideBarLinksList({ onclick }: SideBarLinksListProps) {
   return (
-    <div className="border flex gap-4 flex-col">
-      <SideBarLink icon="i" linkName="Dashboard" />
-      <SideBarLink icon="i" linkName="Dashboard" />
-      <SideBarLink icon="i" linkName="Dashboard" />
-      <SideBarLink icon="i" linkName="Dashboard" />
+    <div className="flex gap-4 flex-col">
+      {SideBarLinksListArray.map(({ icon, linkName }) => {
+        return (
+          <SideBarLink icon={icon} linkName={linkName} onclick={onclick} />
+        );
+      })}
     </div>
   );
 }

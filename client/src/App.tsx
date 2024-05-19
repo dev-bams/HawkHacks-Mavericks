@@ -2,7 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import LandingPage from "./pages/landing-page/LandingPage";
 import PageLayout from "./pages/layout-page/LayoutPage";
 import ErrorPage from "./pages/error-page/ErrorPage";
-import DashBoardPage from "./pages/dashboard-page/DashBoardPage";
+import MainDashBoardPage from "./pages/dashboard-page/MainDashBoardPage";
 // import Logo from "./pages/landing-page/Logo";
 
 const router = createBrowserRouter([
@@ -19,7 +19,7 @@ const router = createBrowserRouter([
     path: "/dashboard",
     element: (
       <PageLayout>
-        <DashBoardPage />
+        <MainDashBoardPage />
       </PageLayout>
     ),
   },
