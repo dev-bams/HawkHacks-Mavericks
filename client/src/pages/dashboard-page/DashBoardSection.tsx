@@ -14,9 +14,14 @@ interface User {
   avg_score: number;
   current_courses: string[];
 }
-
+interface Course {
+  id: string;
+  title: string;
+  description: string;
+}
 function DashBoardSection() {
   const [data, setData] = useState<User | null>(null);
+  const [courses, setCourses] = useState<Course[]>([]);
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -42,9 +47,33 @@ function DashBoardSection() {
         console.log(error);
       }
     };
+    const fetchCourseData = async () => {
+      try {
+        const response = await fetch(
+          "https://us-west-2.aws.neurelo.com/rest/courses?",
+          {
+            method: "GET",
+            headers: {
+              "X-API-KEY":
+                "neurelo_9wKFBp874Z5xFw6ZCfvhXbwG8jmCzSM/SJ1Ko8Ma8fi2bpo3BushmlVhO69WJiE9TrDV7RrYUO14TO3QYNilSyY4ntwZ5ZrRuoSak02vT0BiDRovHQm5N6xI3vzcFDvibtCb2eJuLLJ+BVy+X1mod2z/0CBphPgoTBvugpyjauqM1yyWR1ntm5acULxvRxT2_W3wlcv/Cg6PK5VaE8jgdQ9kRj1wl21pbuv0ynPLt0kQ=",
+            },
+          }
+        );
 
+        if (!response.ok) {
+          throw new Error(`Error: ${response.status} ${response.statusText}`);
+        }
+
+        const result = await response.json();
+        setCourses(result.data);
+      } catch (error) {
+        console.log(error);
+      }
+    };
     fetchData();
+    fetchCourseData();
   }, []);
+  if (courses) console.log(courses);
   return (
     <div className="border-2 border-black grow h-full min-h-lvh bg-light-purple flex flex-col p-6 gap-6">
       {data && (
@@ -105,9 +134,9 @@ function DashBoardSection() {
                   Course Wishlist
                 </div>
                 <div className="bg-light-green p-6 gap-6 flex flex-col">
-                  <CourseItemStarred />
-                  <CourseItemStarred />
-                  <CourseItemStarred />
+                  {/* <CourseItemStarred name={courses[0].name} avg_rating={courses[0].avg_rating}/> */}
+                  {/* {/* <CourseItemStarred /> */}
+                  <CourseItemStarred /> 
                 </div>
               </div>
             </div>

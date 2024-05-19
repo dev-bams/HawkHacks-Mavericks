@@ -6,7 +6,7 @@ function CourseItemStarred() {
       <div className="flex">
         <img />
         <div>
-          <p>Advanced Cybersecurity Techniques</p>
+          <p>{"Advanced Cybersecurity Techniques"}</p>
         </div>
       </div>
       <div className="flex gap-4 justify-between">
