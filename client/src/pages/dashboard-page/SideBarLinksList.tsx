@@ -5,7 +5,7 @@ const SideBarLinksListArray: SideBarLinkType[] = [
   { icon: "icon", linkName: "Dashboard" },
   { icon: "icon", linkName: "Courses" },
   { icon: "icon", linkName: "Assistant" },
-  { icon: "icon", linkName: "Profile" },
+  // { icon: "icon", linkName: "Profile" },
 ];
 function SideBarLinksList({ onclick }: SideBarLinksListProps) {
   return (

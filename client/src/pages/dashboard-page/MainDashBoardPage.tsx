@@ -6,7 +6,7 @@ import DashBoardSection from "./DashBoardSection";
 import AccountSection from "./AccountSection";
 
 function MainDashBoardPage() {
-  const [tab, setTab] = useState("account");
+  const [tab, setTab] = useState("Dashboard");
   function toggleTab(tab: string) {
     setTab(tab);
   }

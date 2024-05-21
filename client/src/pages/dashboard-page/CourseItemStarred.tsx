@@ -1,12 +1,15 @@
 import filledStar from "../../assets/images/filled-star.png";
 import unfilledStar from "../../assets/images/unfilled-star.png";
-function CourseItemStarred() {
+interface CourseItemStarredProps {
+  name: string;
+}
+function CourseItemStarred({ name }: CourseItemStarredProps) {
   return (
     <div className="flex border-[3px] border-black flex-col p-4">
       <div className="flex">
         <img />
         <div>
-          <p>{"Advanced Cybersecurity Techniques"}</p>
+          <p>{name}</p>
         </div>
       </div>
       <div className="flex gap-4 justify-between">

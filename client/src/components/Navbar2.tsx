@@ -6,7 +6,7 @@ function Navbar2() {
     <div className="logo w-full flex flex-row ">
       <img src={Logo} alt="Eduken Logo" />
       <div className="grow ">
-        <IoMdNotifications className="w-12 h-12"/>
+        {/* <IoMdNotifications className="w-12 h-12"/> */}
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ function SideBarLink({ icon, linkName, onclick }: SideBarLinkProps) {
         onclick(linkName);
       }}
     >
-      <p>{icon}</p>
+      {/* <p>{icon}</p> */}
       <p>{linkName}</p>
     </div>
   );

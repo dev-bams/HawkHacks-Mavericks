@@ -73,7 +73,7 @@ function DashBoardSection() {
     fetchData();
     fetchCourseData();
   }, []);
-  if (courses) console.log(courses);
+  // if (courses) console.log(courses[0].names);
   return (
     <div className="border-2 border-black grow h-full min-h-lvh bg-light-purple flex flex-col p-6 gap-6">
       {data && (
@@ -134,9 +134,8 @@ function DashBoardSection() {
                   Course Wishlist
                 </div>
                 <div className="bg-light-green p-6 gap-6 flex flex-col">
-                  {/* <CourseItemStarred name={courses[0].name} avg_rating={courses[0].avg_rating}/> */}
-                  {/* {/* <CourseItemStarred /> */}
-                  <CourseItemStarred /> 
+                  <CourseItemStarred name="Network Security Keep Course 1" />
+                  <CourseItemStarred name="Information Security Money Course 3" />
                 </div>
               </div>
             </div>

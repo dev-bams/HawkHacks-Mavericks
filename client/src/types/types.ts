@@ -21,6 +21,7 @@ type CategoryTypeProps = {
 };
 type CourseItemProps = {
   title: string;
+  time: string;
 };
 export type {
   SideBarLinkType,

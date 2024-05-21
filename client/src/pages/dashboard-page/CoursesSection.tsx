@@ -13,8 +13,8 @@ function CoursesSection() {
               Current Courses
             </div>
             <div className="bg-light-green p-6 gap-6 flex flex-col">
-              <CourseItems />
-              <CourseItems />
+              <CourseItems time="80" title="Network Security Several Course 1" />
+              <CourseItems time="45" title="Cloud Security Control Course 2" />
             </div>
           </div>
           <div className="border-[3px] border-primary">
@@ -22,8 +22,8 @@ function CoursesSection() {
               Recommended Courses
             </div>
             <div className="bg-light-green p-6 gap-6 flex flex-col">
-              <CourseItems />
-              <CourseItems />
+              <CourseItems time="65" title="Data Privacy Face Course 4" />
+              <CourseItems time="50" title="Cryptography Tough Course 2" />
             </div>
           </div>
         </div>
@@ -34,8 +34,8 @@ function CoursesSection() {
               <p>See more</p>
             </div>
             <div className="bg-light-green p-6 gap-6 flex flex-col">
-              <CourseItems />
-              <CourseItems />
+              <CourseItems time="76" title="National Security Source Course 1" />
+              <CourseItems time="40" title="Privacy Law Officer Course 3" />
             </div>
           </div>
           <div className="border-[3px] border-primary">
@@ -43,8 +43,8 @@ function CoursesSection() {
               Course Wishlist
             </div>
             <div className="bg-light-green p-6 gap-6 flex flex-col">
-              <CourseItemStarred />
-              <CourseItemStarred />
+              <CourseItemStarred name="Advanced Cybersecurity Techniques" />
+              <CourseItemStarred name="Digital Forensics War Course 2" />
             </div>
           </div>
         </div>
