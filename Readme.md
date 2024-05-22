@@ -13,15 +13,4 @@ Eduken is an AI-powered learning companion designed to revolutionize education. 
 - **Programming Languages** Javascript, Typescript, Python
 - **Other Technologies Used:** MongoDB Atlas, Neurelo, Google Gemini API
 
-## Getting Started:
-1. Visit our website: [www.Eduken.com](https://www.Eduken.com)
-2. Create an account and start learning!
-3. For support, contact us via email or live chat.
-
-## Let's Connect:
-- **Email:** info@Eduken.com
-- **Twitter:** @EdukenOfficial
-- **Facebook:** EdukenOfficial
-- **Instagram:** @Eduken_Official
-
 Join us on our mission to revolutionize education with blockchain technology and AI-powered learning experiences!
